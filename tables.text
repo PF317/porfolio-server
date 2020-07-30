@@ -1,0 +1,10 @@
+CREATE TABLE projects (
+    name VARCHAR(255),
+    url VARCHAR(255),
+    description VARCHAR(255),
+    techUsed VARCHAR(255),
+    imageURL VARCHAR(255),
+    id serial PRIMARY KEY 
+);
+INSERT INTO projects (name, url, description, techUsed, imageURL) 
+VALUES('Mini Pong Game', 'https://makecode.microbit.org/_CaKdobid3Ms8', 'Mini Pong Game Using Makecode', 'JavaScript, Makecode', '/MinipongMicrobitimg.jpg');
